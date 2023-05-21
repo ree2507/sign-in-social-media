@@ -119,3 +119,27 @@ footer {
     text-align: center;
     color: #fff;
 }
+
+/* media query */
+/* mobile screen */
+
+@media screen and (max-width:450px) {
+
+
+    header {
+        padding: 20px;
+    }
+
+    section .hero-content {
+        z-index: 100;
+        background: rgba(70, 69, 69, .2);
+    }
+
+    .features {
+        display: block;
+    }
+
+    .cta h2 {
+        font-size: 30px;
+    }
+}
